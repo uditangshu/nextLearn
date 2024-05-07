@@ -1,6 +1,10 @@
 import { Inter } from "next/font/google";
+import Navbar from "@/components/navbar";
+import SectionOne from "@/components/Section1";
 import "./globals.css";
-
+import SectionTwo from "@/components/Section2";
+import Line from "@/components/line";
+import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -11,7 +15,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <body className={inter.className}>
+        <div className="background">
+          <Navbar />
+          <SectionOne />
+          <Line />
+          <SectionTwo />
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
