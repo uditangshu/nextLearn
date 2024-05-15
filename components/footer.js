@@ -23,7 +23,7 @@ const Footer = () => {
                   target="_blank"
                   className="socialsLink"
                 >
-                  <i className="fa-brands fa-facebook sociallogo"></i>
+                  Facebook
                 </a>
               </p>
 
@@ -33,7 +33,7 @@ const Footer = () => {
                   target="_blank"
                   className="socialsLink"
                 >
-                  <i className="fa-brands fa-instagram sociallogo"></i>
+                  Insta
                 </a>
               </p>
               <p>
@@ -42,7 +42,7 @@ const Footer = () => {
                   target="_blank"
                   className="socialsLink"
                 >
-                  <i className="fa-brands fa-linkedin sociallogo"></i>
+                  linkedin
                 </a>
               </p>
             </div>
