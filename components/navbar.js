@@ -7,19 +7,19 @@ const Navbar = () => {
       <div className="right">
         <ul>
           <li>
-            <a href="">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="">Blogs</a>
+            <a href="/blogs">Blogs</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
           <li>
-            <a href="">Contact me</a>
+            <a href="/contact">Contact me</a>
           </li>
         </ul>
       </div>

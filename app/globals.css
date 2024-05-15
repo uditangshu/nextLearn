@@ -112,7 +112,7 @@
    color: purple;
  }
 
- #element {
+ .element {
    color: purple;
  }
 
@@ -246,3 +246,22 @@
   
   
  }
+ .wrapper {
+   height: 100vh;
+   /*This part is important for centering*/
+   display: grid;
+   place-items: center;
+ }
+
+.anchor{
+    text-decoration: none;
+      color: whitesmoke;
+      font-family: 'Poppins';
+} 
+.anchor:hover{
+  color: rgb(113, 113, 181);
+  cursor: pointer;
+}
+.socialsLink{
+  color: #bfddca;
+}
