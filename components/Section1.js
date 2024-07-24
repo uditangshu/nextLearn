@@ -1,5 +1,5 @@
 import imgBack from "/public/devimg.png";
-import Image from "next/image";
+
 
 const SectionOne = () => {
   return (
@@ -30,7 +30,8 @@ const SectionOne = () => {
         </div>
       </div>
       <div class="rightsection">
-        <Image src={imgBack} className="imgBack" />
+        there should have been an image...and the error is in next/image.
+        
       </div>
     </section>
   );
