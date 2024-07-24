@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <nav className="nightnav">
       <div className="left">
-        <p id="jstest">Abhishek's Portfolio</p>
+        <p >Abhishek's Portfolio</p>
       </div>
       <div className="right">
         <ul>
