@@ -6,7 +6,7 @@ const SectionOne = () => {
   return (
     <section className="firstsection night">
       <div className="leftsection">
-        Hi, My name is <span id="namewala">Abhishek</span>
+        Hi, My name is <span id="namewala">Uditangshu</span>
         <div>and, I am a passionate</div>
         <div className="element">Web Developer</div>
         <div id="but">

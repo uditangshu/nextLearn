@@ -8,13 +8,13 @@ const SectionTwo = () => {
       <div className="box">
         <div className="vertical">
           <div className="verticaltext">
-            Did Primary,Middle and Secondary Schooling from HCS <div></div>
+            Did Primary,Middle and Secondary Schooling from SSRVM <div></div>
             (2011-2021)
           </div>
         </div>
         <div className="vertical">
           <div className="verticaltext">
-            Did Higher Secondary Schooling from Hindi School <div></div>
+            Did Higher Secondary Schooling from SSRVM<div></div>
             IIT-JEE Aspirant <div></div>(2021-2023)
           </div>
         </div>
@@ -25,7 +25,7 @@ const SectionTwo = () => {
         </div>
         <div className="vertical">
           <div className="verticaltext">
-            Aspiring Web-Developer and Graphic Designer <div></div>
+            Aspiring Web-Developer<div></div>
             (2023-present)
           </div>
         </div>
