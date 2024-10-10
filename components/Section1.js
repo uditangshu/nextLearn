@@ -21,7 +21,7 @@ const SectionOne = () => {
           </button>
           <button className="but">
             <a
-              href="https://github.com/Abhishekkk2004"
+              href="https://github.com/uditangshu"
               target="_blank"
               className="anchor"
             >
